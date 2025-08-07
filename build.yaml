@@ -20,5 +20,4 @@
 ---
 include:
   - board: mona60
-    shield: nhkb
     snippet: studio-rpc-usb-uart
