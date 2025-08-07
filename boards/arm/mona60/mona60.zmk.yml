@@ -6,9 +6,10 @@ arch: arm
 outputs:
   - usb
   - ble
-url: https://nicekeyboards.com/nice-nano
-exposes: [pro_micro]
+url: https://nicekeyboards.com/mona60
 
 features:
   - keys
   - display
+  - underglow
+  - studio
