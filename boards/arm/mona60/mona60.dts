@@ -120,3 +120,7 @@ RC(4,0)   RC(4,1)   RC(4,2)                      RC(4,5)                       R
         color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>;
     };
 };
+
+&layout_60_hhkb {
+    transform = <&default_transform>;
+};
