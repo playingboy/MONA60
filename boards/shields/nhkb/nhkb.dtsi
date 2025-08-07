@@ -2,7 +2,6 @@
 
 
 
-#include "nhkb-pinctrl.dtsi"
 
 / {
     chosen {
@@ -10,12 +9,7 @@
         zmk,battery = &vbatt;
         zmk,underglow = &led_strip;
     };
-    leds {
-        compatible = "gpio-leds";
-        blue_led: led_0 {
-            gpios = <&gpio0 26 GPIO_ACTIVE_HIGH>;
-        };
-    };
+    
     // Node name must match original "EXT_POWER" label to preserve user settings.
     EXT_POWER {
         compatible = "zmk,ext-power-generic";
