@@ -1,6 +1,6 @@
 identifier: mona60
-name: mona60
-type: mcu
+name: MONA60
+type: keyboard
 arch: arm
 toolchain:
   - zephyr
