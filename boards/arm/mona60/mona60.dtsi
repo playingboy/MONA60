@@ -6,7 +6,6 @@
 
 #include <nordic/nrf52840_qiaa.dtsi>
 #include "mona60-pinctrl.dtsi"
-#include "arduino_pro_micro_pins.dtsi"
 #include <dt-bindings/led/led.h>
 
 / {
