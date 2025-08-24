@@ -3,7 +3,7 @@
 
 if BOARD_MONA60
 
-config BOARD
+config ZMK_KEYBOARD_NAME
     default "mona60"
 
 
