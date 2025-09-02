@@ -1,14 +1,14 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "hhkb.dtsi"
-
-&layout_60_hhkb {
-    transform = <&default_transform>;
-};
 
 / {
+    physical_layout0: physical_layout_0 {
+        compatible = "zmk,physical-layout";
+        display-name = "Default Layout";
+        transform = <&default_transform>;
+    };
     chosen {
         zmk,kscan = &mock_kscan;
-        zmk,physical-layout = &layout_60_hhkb;
+        zmk,physical-layout = &physical_layout0;
     };
 
     mock_kscan: mock_kscan_0 {
@@ -24,7 +24,6 @@
         rows = <5>;
 
         map = <
-        
             // Lots of RC(r,c) macros
         >;
     };
