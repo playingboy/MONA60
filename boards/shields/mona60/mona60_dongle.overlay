@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#import "hhkb.dtsi"
+#include "hhkb.dtsi"
 
 &layout_60_hhkb {
     transform = <&default_transform>;
