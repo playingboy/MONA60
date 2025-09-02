@@ -1,4 +1,4 @@
-if BOARD_MONA60_DONGLE
+if SHIELD_MONA60_DONGLE
 
 # Max 16 characters in keyboard name
 config ZMK_KEYBOARD_NAME
