@@ -1,5 +1,4 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#import "my_keyboard-layouts.dtsi"
 
 &physical_layout0 {
     transform = <&default_transform>;
