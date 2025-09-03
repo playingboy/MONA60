@@ -28,10 +28,10 @@ include:
   # Your other keyboard parts here
   # -----------------------------------------
   # Change the board appropriately, you can use any board
-  - board: mona60
-    shield: mona60_dongle
-  - board: mona60
-    shield: settings_reset
+  #- board: mona60
+  #  shield: mona60_dongle
+  #- board: mona60
+  #  shield: settings_reset
   # Add these cmake-args to the peripherals you wish to use with the dongle
   - board: mona60
     snippet: studio-rpc-usb-uart
