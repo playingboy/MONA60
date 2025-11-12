@@ -8,8 +8,8 @@
 
     mock_kscan: mock_kscan_0 {
         compatible = "zmk,kscan-mock";
-        columns = <14>;
-        rows = <5>;
+        columns = <0>;
+        rows = <0>;
         events = <0>;
     };
 
