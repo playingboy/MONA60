@@ -8,6 +8,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     keymap0: keymap {
@@ -35,7 +36,7 @@
 &kp SYS_PWR  &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &kp F6     &kp F7     &kp F8     &kp F9     &kp F10    &kp F11    &kp F12   &kp INS   &kp DEL
 &kp CAPSLOCK &none      &none      &none      &none      &none      &none      &none      &kp PRSC   &kp SLCK   &kp PAUS   &kp UP     &none               &kp DEL
 &none           &kp K_VOL_DN &kp K_VOL_UP &kp K_MUTE   &kp K_EJECT &none &kp KP_MULTIPLY   &kp KP_DIVIDE   &kp HOME   &kp PG_UP   &kp LEFT      &kp RIGHT      &none
-&none              &none       &none       &none         &none      &none      &kp KP_PLUS      &kp KP_MULTIPLY  &kp END  &kp PG_DN  &kp DOWN   &none          &none
+&none              &none       &none       &none         &none      &none      &kp KP_PLUS      &kp KP_MINUS  &kp END  &kp PG_DN  &kp DOWN   &none          &none
 &none       &kp K_STOP       &none                                                                     &none     &none
             >;
         };
@@ -43,16 +44,16 @@
         rgb_layer {
 // ------------------------------------------------------------------------------------------------
 // | BT CLR | F1  | F2  | F3  | F4  | F5  | F6  | F7  | F8  | F9  | F10  | F11 | F12 | EFFECT REV |
-// |  BT 1   |   |  UP |   | HUEUP | SATUP | BRIUP | SPDUP |   |     |    |     |     |           |
-// |   BT 2   | LT |  DN  | RT | HUEDN | SATDN | BRIDN | SPDDN |   |     |   |     |  EFFECT FORW |
-// |    BT 3     |     |      |      |     |     |     |     |     |     |     |                  |
+// |  BT 1   |   |     |   | HUEUP | SATUP | BRIUP | SPDUP |MB1| m up|MB2 |     |     |           |
+// |   BT 2   |    |      |    | HUEDN | SATDN | BRIDN | SPDDN |m L| m R |   |     |  EFFECT FORW |
+// |    BT 3     |     |      |      |     |     |       |       | m  D|     |     |              |
 // |   BT 4  |      |      |             TOG RGB                | PRT SCR |       |       |  DEL  |
 // ------------------------------------------------------------------------------------------------
             bindings = <
     &bt BT_CLR   &kp F1    &kp F2    &kp F3  &kp F4           &kp F5          &kp F6          &kp F7          &kp F8   &kp F9   &kp F10  &kp F11 &kp F12  &rgb_ug RGB_EFR   &trans
-    &bt BT_SEL 0  &trans    &kp UP    &trans  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI  &trans   &trans   &trans   &trans  &trans          &trans
-    &bt BT_SEL 1   &kp LEFT  &kp DOWN  &kp RIGHT &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD &trans   &trans   &trans   &trans        &rgb_ug RGB_EFF
-    &bt BT_SEL 2    &trans    &trans    &trans   &trans          &trans          &trans          &trans          &trans   &trans   &trans                          &trans   &trans
+    &bt BT_SEL 0  &trans    &trans    &trans  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI  &mkp LCLK   &mmv MOVE_UP   &mkp RCLK   &trans  &trans          &trans
+    &bt BT_SEL 1   &trans  &trans  &trans &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD &mmv MOVE_LEFT   &mmv MOVE_RIGHT   &trans   &trans        &rgb_ug RGB_EFF
+    &bt BT_SEL 2    &trans    &trans    &trans   &trans          &trans          &trans          &trans          &mmv MOVE_DOWN   &trans   &trans                          &trans   &trans
     &bt BT_SEL 3  &trans                            &rgb_ug RGB_TOG                                      &kp PSCRN      &trans
             >;
         };
