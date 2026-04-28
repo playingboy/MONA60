@@ -25,6 +25,10 @@ RGB如果确认不用可以关闭，可以提高续航；
 5. 键盘有三层，最上层是常用键，第二层是一些功能键，第三层是控制蓝牙和模拟鼠标，以及RGB控制，RGB灯光可调（R，F T，G，Y，H），可以去尝试一下调整背光灯；
 
 刷bootloader：
-openocd -f interface/jlink.cfg -c "transport select swd" -f target/nrf52.cfg -s tcl
+openocd -f interface/jlink.cfg -c "transport select swd" -f target/nrf52.cfg -s tcl;
+
+芯片解锁： nrf52.dap apreg 1 0x04 0x01
+
+
 
 
