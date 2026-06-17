@@ -1,25 +1,26 @@
+## <center>MONA60 Design Introduction</center>
 
-## <center>MONA60 设计简介</center>
 ![image](image/plate_2025-Aug-15_01-45-12PM-000_CustomizedView22842727889.png)
 
-**设计理念：**
-1. 键盘，首先是一个键盘，一定是那个经常用都很稳定，又很舒适的键盘！所以第一要保证功能，保证可靠，保证人体工学设计！
-2. 省掉那些不必要的花哨设计，回归本质，它一定是那种简约大气，百看不厌，能给输入带来快感的存在！
-3. 情绪价值：一把键盘，对输入量比较大的用户来说它是你的朋友，给你每天的陪伴，他能给你的是轻快而又开心的体验！
+**Design Philosophy:**
 
-mona60它应该做到了，虽然还不完美，但是它在努力！
+1. **A Keyboard First:** A keyboard must be exceptionally reliable and comfortable for daily heavy use. Our absolute highest priorities are functionality, reliability, and ergonomic design.
+2. **Back to Basics:** By trimming away unnecessary, flashy gimmicks, we returned to the core essence of the object. The MONA60 is a sleek, timeless keyboard that delivers pure satisfaction with every keystroke.
+3. **Emotional Value:** For heavy typists, a keyboard is a companion that offers daily comfort. It should provide a light, effortless, and joyful typing experience.
 
-**设计细节：**
-1. 16.5厚度（普遍是18.5），空间几乎用到极限，这样能提供更舒适的手腕仰角；
-2. 四个角用到了G3圆角，更顺滑的过渡，触感更丝滑；
-3. 键盘仰角6.5度，人体工学比较舒适的角度！
-4. 小屏幕的存在能让许多信息数字化，可视化，比如连接状态，蓝牙有多个连接可以确定当前连接；电池电量，防止突然没电的尴尬！WPM的展示让输入效率数字化，有利于改进和提高自己的输入效率！
-5. 功能性的东西几乎都是满配！自定义按键，灯，Tap-Dances，支持Macros......
-6. 背面的type-c口是贴桌面设计，我的桌面经常被这些离桌面比较高的插口搞的很难整理；所以想要工整的走线它应该能满足你；这个孔机加工的难度可不一般，很难装夹。
-7. 超级省电的自休眠模式，几乎让你忘记它可以usb输入！
-8. 会呼吸的RGB背景灯在深夜里真的会有用，抚平你那颗焦虑的心！
-9. top结构加碳纤维定位板，发挥稳定，不挑轴体，让平价轴也能拥有美妙的打字音，非常治愈！
-10. 整个外壳并没有用铝材质，主要原因两个：铝材重量太重，不方便携带；在冬天用起来，铝会冰冰的，带来不好的体验；
-11. 为什么选择hhkb配列：大键盘，小键盘以及人体工学键盘，这些都调研了很久，其实这和使用场景有关系；
-      hhkb配列的优势也比较明显：减少输入劳累，手的移动距离变小了；方便携带，适合长期输入使用；
-12. 装配：外壳螺丝装配，稳定，方便携带；type-c小板与pcb连接线是插拔方式，以及小屏幕都是插拔方式，虽然成本上升，但是对于喜欢diy声音的玩家来说非常友好，即稳定又方便；
+The MONA60 achieves exactly that. While no product is flawless, it constantly strives for perfection.
+
+**Design Details:**
+
+1. **Ultra-Slim Profile:** With a front height of just 16.5mm (compared to the industry standard of 18.5mm), we pushed internal space utilization to its absolute limit to provide a much more comfortable wrist angle.
+2. **G3 Continuous Curved Corners:** The four corners utilize a premium G3 curvature, delivering seamless visual transitions and a silky-smooth tactile feel.
+3. **6.5-Degree Typing Angle:** Engineered at a 6.5-degree tilt to offer the most natural and ergonomically comfortable typing stance.
+4. **Integrated OLED Display:** The small screen translates critical info into clean data visuals. Check active multi-device Bluetooth connections at a glance, monitor precise battery levels to avoid sudden shutdowns, and track your real-time WPM to gauge and optimize typing efficiency.
+5. **Fully Packaged Features:** It comes fully loaded with premium functionalities—supporting completely custom keymaps, customizable RGB lighting, Tap-Dance layouts, custom Macros, and more.
+6. **Flush Type-C Port Design:** Traditional high-set ports often create messy cable routing on desks. The MONA60 features a Type-C cutout that aligns flush with your desk surface for flawless cable management. (This structural design requires intricate machining and complex fixturing setup).
+7. **Ultra-Efficient Auto-Sleep:** Featuring an incredibly energy-efficient auto-sleep mode, the battery life is so long you will practically forget it can even be plugged in via USB.
+8. **Breathing RGB Underglow:** The soft, breathing ambient lighting provides a soothing visual anchor during late-night sessions, calming a busy mind.
+9. **Top Mount Configuration + Carbon Fiber Plate:** This combination guarantees consistent structural stability and a forgiving acoustic profile. It works beautifully with any switch type, enabling even budget-friendly switches to produce a satisfying, crisp, and healing typing sound.
+10. **Composite Chassis Construction:** We deliberately bypassed traditional aluminum casing for two primary reasons: aluminum adds excessive weight for portable travel, and its metallic surface gets uncomfortably ice-cold to the touch during winter.
+11. **Why the HHKB Layout?** After extensive research across full-sized, TKL, and split ergonomic layouts, we found that optimal configuration comes down to use-case. The HHKB layout excels by minimizing hand movement to reduce fatigue, making it highly portable and ideal for long-duration typing.
+12. **DIY-Friendly Internal Assembly:** Built with a rock-solid, screw-fastened external enclosure. For internal components, both the Type-C daughterboard and the OLED screen connect to the PCB via hot-swappable JST ribbon connectors. While this increases production costs, it makes it exceptionally stable and user-friendly for enthusiasts who love disassembling their boards to fine-tune sound dampening.
