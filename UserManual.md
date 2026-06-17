@@ -1,34 +1,49 @@
-套件包括：
-1. 外壳：top结构，内嵌铜螺母，abs 机加工外壳；
-2. pcb：标准hhkb配列，空格是常见的6.25，热插拔（非焊接），支持5脚轴，3脚轴，ZMK固件，双模BLE和USB，BLE可以连接多个设备，支持多种RGB，支持任意改建，支持模拟鼠标，自动进入休眠节省电量，zmk固件；
-3.带有一块小屏幕：显示连接状态，当前层（小键盘都是多层的）， 显示电池电量，显示输入WPM（输入速度）；
-4.type-c接口小板：板子上有防大电流芯片，更加安全；（pcb与type-c小板是通过连接器连接，外接的type-c更美观）；
-5.屏幕盖板， 亚克力材质；
-6.定位板：碳纤维材质，声音更脆，更适合top结构；
-7.卫星轴：pcb卫星轴，铜柱螺丝固定，更稳定，降低大键的杂音；
-8.配套的螺丝：304不锈钢材质，拒绝生锈氧化；螺丝配垫片，减少敲击共振，优化打字音！
-9.2000毫安电池，足够省电，所以没有配大电池；
-10.poron夹心棉，飞普通的夹心棉；
-11.2米长type-c数据线；
+## Kit Includes:
 
+1. **Enclosure:** Top mount structure with embedded brass threaded inserts and a precision CNC-machined ABS chassis.
+2. **PCB:** Standard HHKB layout featuring a mainstream 6.25u spacebar. It comes hot-swappable (no soldering required) and supports both 5-pin and 3-pin switches. Powered by ZMK firmware, it features dual-mode BLE (Bluetooth Low Energy) and USB connectivity. BLE supports multi-device pairing, various RGB effects, fully customizable keymaps, mouse emulation, and an auto-sleep mode to conserve power.
+3. **Integrated Display:** Features a small OLED screen that displays connection status, active layers (compact layouts rely on multiple layers), precise battery capacity, and your real-time typing speed (WPM).
+4. **Type-C Daughterboard:** Equipped with an onboard overcurrent protection chip for enhanced safety. The daughterboard connects to the main PCB via a secure wire connector, allowing for a more aesthetically pleasing flush exterior port.
+5. **Screen Cover:** Crafted from premium high-transparency acrylic material.
+6. **Switch Plate:** Made of high-quality carbon fiber, which delivers a crisper acoustic profile and perfectly complements the top mount structure.
+7. **Stabilizers:** PCB-mount (screw-in) stabilizers secured with brass pillars for maximum stability, significantly reducing rattling and ticking on large keys.
+8. **Matching Hardware:** 304 stainless steel screws that resist rust and oxidation. Includes specialized washers to dampen housing resonance and optimize the typing sound.
+9. **Battery:** A 2000mAh battery pack is included. Due to the high energy efficiency of the hardware design, a massive battery is unnecessary.
+10. **Case Foam:** Premium Poron plate foam (not cheap standard foam) for superior acoustic dampening.
+11. **Cable:** Includes a 2-meter Type-C data and charging cable.
 
-产品使用说明：
-1. 连接方式：有线模式type-c线连接直接使用；蓝牙模式搜索mona60，配对成功后可正常使用；键盘的最左侧一列是对蓝牙的控制，esc：清除蓝牙连接信息；tab：切换蓝牙连接1；control：切换到蓝牙连接2；left shift：切换蓝牙连接3； left option（wine）：切换蓝牙连接4；可以结合小屏幕了解一些信息；
+---
 
-2. RGB： code + 空格打开和关闭RGB灯；超多灯效可调；
+## Operating Instructions:
 
-3. 背面开关：橙色按钮连按两下进入bootloader模式；下面的3个拨码开关：1: RGB电源；2: 电池供电电源：3: 电池充电电源；
-在装了电池：正常使用情况下建议3个开关全部打开，长期不用可以关闭2；
-没有装电池或者一直有线模式使用建议2和3关闭；
-RGB如果确认不用可以关闭，可以提高续航；
-4. 改建：usb模式下可以通过网页自定义按键映射：https://zmk.studio/ 通过这个网址链接后也能看到键盘每一层的布局设置，这些都是可以自定义的；
-5. 键盘有三层，最上层是常用键，第二层是一些功能键，第三层是控制蓝牙和模拟鼠标，以及RGB控制，RGB灯光可调（R，F T，G，Y，H），可以去尝试一下调整背光灯；
+1. **Connection Modes:** For wired mode, simply connect the keyboard via the Type-C cable to start typing. For Bluetooth mode, search for **MONA60** on your host device and pair. The leftmost column on **Layer 3** controls Bluetooth functions:
+   * **ESC:** Clear active Bluetooth bond profiles.
+   * **TAB:** Switch to Bluetooth Device 1.
+   * **Control:** Switch to Bluetooth Device 2.
+   * **Left Shift:** Switch to Bluetooth Device 3.
+   * **Left Option (Win):** Switch to Bluetooth Device 4.
+   * *Tip: Refer to the built-in screen to check your current connection status.*
+2. **RGB Controls:** Press `Code(.)` + `Spacebar` to toggle the RGB underglow/backlighting on and off.
+3. **Rear Switches:** Double-click the orange button to enter Bootloader mode. Below it are 3 DIP switches:
+   * **(1):** RGB Hardware Power
+   * **(2):** Battery Power Supply
+   * **(3):** Battery Charging Circuit
+   * *Usage Recommendations:* With a battery installed for daily wireless use, keep all 3 switches **ON**. Turn switch **(2) OFF** for long-term storage. If you run the board without a battery (wired-only mode), turn switches **(2)** and **(3) OFF**. Turn switch **(1) OFF** if you never use RGB to maximize battery life.
+4. **Key Remapping:** In USB wired mode, you can customize your keymaps directly via the web configurator at [https://zmk.studio/](https://zmk.studio/). Once connected, the tool lets you visualize and modify the layout configurations for every single layer.
+5. **Layer Layout:** The keyboard features 3 default layers. **Layer 1** (Base) handles your daily alphanumeric typing. **Layer 2** maps essential navigation and function keys. **Layer 3** houses Bluetooth controls, mouse emulation, and lighting adjustments. RGB lighting behavior (Hue, Saturation, Brightness, and Effects) can be fine-tuned using the clustered adjustment keys (`R`, `F`, `T`, `G`, `Y`, `H`, `U`, `G`, `\`). Feel free to experiment to find your perfect lighting style.
 
-刷bootloader：
+---
+
+## Flashing Firmware:
+
+1. Double-click the orange button on the back of the case twice to enter **Bootloader mode**.
+2. The keyboard will mount to your computer as a mass storage USB drive named **MONA60**. Drag and drop or paste your prepared firmware `.uf2` file directly into this folder.
+3. Firmware files can be downloaded directly from the GitHub Actions tab of the repository; there is no need to compile the source code yourself.
+
+---
+
+## Bootloader Interface (Advanced):
+
+```bash
 openocd -f interface/jlink.cfg -c "transport select swd" -f target/nrf52.cfg -s tcl;
-
-芯片解锁： nrf52.dap apreg 1 0x04 0x01
-
-
-
-
+```
