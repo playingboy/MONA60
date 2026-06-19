@@ -1,0 +1,7 @@
+board:
+  name: mona60
+  vendor: monakeyboards
+  socs:
+    - name: nrf52840
+      variants:
+        - name: zmk
