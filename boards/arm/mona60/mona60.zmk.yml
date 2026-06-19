@@ -6,7 +6,7 @@ arch: arm
 outputs:
   - usb
   - ble
-url: https://nicekeyboards.com/mona60
+url: https://github.com/playingboy/MONA60
 
 features:
   - keys
