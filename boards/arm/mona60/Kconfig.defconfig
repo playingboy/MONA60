@@ -44,4 +44,7 @@ endif # USB_DEVICE_STACK
 config BT_CTLR
     default BT
 
+config ZMK_POINTING
+	default y
+
 endif #
